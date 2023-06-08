@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+
+  button {
+    padding: 10px 20px;
+    background-color: #517daa;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5f8dba;
+  }
+
+  .checkboxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+  }
