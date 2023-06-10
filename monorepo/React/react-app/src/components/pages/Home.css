@@ -23,14 +23,16 @@
   .service{
     font-weight: 600;
   }
-  .content {
-    padding: 50px;
-    text-align: center;
-  }
-  
-  .site-card-wrapper {
+
+
+  .card{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 11px;
+    width: 378px;
+    height: 44px;
   }
   
   .body-content{
@@ -38,6 +40,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: -webkit-fill-available;
+  
   }
   .arrow-icon {
     position: absolute;
@@ -50,4 +54,41 @@
     padding: 10px;
     background-color: #fff;
     font-weight: 600;
+  }
+
+  .image{
+    border-radius: 0px !important;
+    width: 58px !important;
+    height: auto;
+    padding-left: 12px;
+  }
+  
+
+
+  .text-card{
+    float: left;
+  }
+
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .consultation-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+
+  }
+
+   .ant-card-actions{
+    border-top: 0px  !important;
+    background: transparent !important;
+  }
+
+  .logo{
+    width: 56px;
   }
