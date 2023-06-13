@@ -133,16 +133,17 @@ const Home = () => {
                   <RightOutlined />
                 </Link>,
               ]}
-              className="card"
+              className="card" 
             >
               <Text className="text-card">Sclerotherapy</Text>
             </Card>
           </div>
         </Card>
-      </Content>
-      <Card className="consultation-card">
-        <Text>Not sure about consltation type? Please, call <a href="#">02037959063</a></Text>
+        <Card className="consultation-card" type="inner">
+        <Text>Not sure about consultation type? Please, call <a href="#">02037959063</a></Text>
       </Card>
+      </Content>
+      
       
       <Footer className="footer">Powered By <img alt="pabau-logo" src={pabau} className="logo"/></Footer>
     </Layout>
