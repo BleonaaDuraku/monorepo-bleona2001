@@ -2,7 +2,7 @@
     min-height: 100vh;
   }
   
-  .header {
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@
     padding: 10px;
     color: #000;
     line-height: 0px;
-  }
+}
   
   .header-content {
     display:flex;
@@ -43,12 +43,7 @@
     width: -webkit-fill-available;
   
   }
-  .arrow-icon {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-  }
-  
+
   .footer {
     text-align: center;
     padding: 10px;
@@ -61,12 +56,6 @@
     width: 58px !important;
     height: auto;
     padding-left: 12px;
-  }
-  
-
-
-  .text-card{
-    float: left;
   }
 
   .content{
@@ -94,3 +83,10 @@
     margin-bottom: -9px;
     width: 58px;
   }
+
+.services{
+  flex-direction: column-reverse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
