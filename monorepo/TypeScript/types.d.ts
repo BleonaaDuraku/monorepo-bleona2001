@@ -12,7 +12,7 @@ interface Intern {
     domain: Domain;
   }
   
-  enum Domain {
+  declare enum Domain {
     Web = "Web",
     Connect = "Connect",
     Backend = "Backend",
